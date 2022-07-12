@@ -77,7 +77,7 @@
      height: 70px;
      display: flex;
      align-items: center;justify-content: center;
-     background-color: rgba(211, 211, 211, 0.406);
+     /* background-color: rgba(211, 211, 211, 0.406); */
  }
  #info {
      list-style-type: none;
@@ -85,5 +85,6 @@
      
  }
  #info li{
-     padding: 100px;
+     margin-left: 100px;
+     margin-right: 100px;
  }

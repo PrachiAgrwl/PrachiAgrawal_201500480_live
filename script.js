@@ -8,9 +8,10 @@ let rn=201500480;
 let cn="GLA University,Mathura";
 let datee="11-07-2022"
 
-window.onload=function displayInfo(){
+setTimeout(
+function displayInfo(){
    namee.innerText=n;
    rollno.innerText=rn;
    clgname.innerText=cn;
    date.innerText=datee;
-}
+}, 2000);
